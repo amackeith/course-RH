@@ -282,7 +282,7 @@ As you can see, we changed two things, one is `--arch arm32v7` which tells Docke
 
 Once the image is built, we can run it on the robot by running the command:
 
-    laptop $ docker -H ![MY_ROBOT].local run -it --rm --net=host duckietown/my-ros-program:v1
+    laptop $ docker -H ![MY_ROBOT].local run -it --rm --net=host duckietown/my-ros-program:v1-arm32v7
 
 If everything worked as expected, you should see the following output,
 
